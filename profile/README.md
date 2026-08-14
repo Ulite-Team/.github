@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../assets/ulite-icon-dark.svg" alt="Ulite" width="120"/>
+<img src="https://raw.githubusercontent.com/Ulite-Team/.github/main/assets/ulite-icon-dark.svg" alt="Ulite" width="120"/>
 
 <br/>
 
