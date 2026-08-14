@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="../assets/ulite-icon-dark.svg" alt="Ulite" width="120"/>
+<img src="../../assets/ulite-icon-dark.svg" alt="Ulite" width="120"/>
 
 <br/>
 
-[![Followers](https://img.shields.io/github/followers/ulite-team?style=flat-square&label=Follow&color=8EA3F5&labelColor=14141F)](https://github.com/ulite-team)
-[![Public repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/orgs/ulite-team&label=repos&query=%24.public_repos&style=flat-square&color=5EE6A0&labelColor=14141F)](https://github.com/orgs/ulite-team/repositories)
+[![Followers](https://img.shields.io/github/followers/Ulite-Team?style=flat-square&label=Follow&color=8EA3F5&labelColor=14141F)](https://github.com/Ulite-Team)
+[![Public repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/orgs/Ulite-Team&label=repos&query=%24.public_repos&style=flat-square&color=5EE6A0&labelColor=14141F)](https://github.com/orgs/Ulite-Team/repositories)
 
 </div>
 
