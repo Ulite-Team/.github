@@ -1,0 +1,41 @@
+name: Update org README
+
+on:
+  schedule:
+    # Daily at 03:00 UTC
+    - cron: "0 3 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_cards.py"
+      - "profile/README.md"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate cards + banner + README section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ORG_NAME: ulite-team
+        run: python scripts/generate_cards.py --org "$ORG_NAME"
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "ulite-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/generated profile/README.md
+          git diff --staged --quiet || git commit -m "chore: refresh org README [skip ci]"
+          git push
