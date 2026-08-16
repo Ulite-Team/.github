@@ -13,22 +13,17 @@
 
 ## About
 
-We develop **Ulite** — a programming language — and the stack around
-it: Kotlin Multiplatform and Rust tooling, built in Zed.
+We build **ulb** — a declarative build DSL — and its toolchain.
 
-<br/>
+| Repository | What it does |
+|---|---|
+| [Uliab](https://github.com/Ulite-Team/Uliab) | Core: the DSL evaluator, the WASM plugin host, and the incremental task engine (Rust) |
+| [ulb-plugins](https://github.com/Ulite-Team/ulb-plugins) | Official WASM build plugins (`ulite/hello`, `ulite/jvm`) and the plugin registry |
+| [ulb-lsp](https://github.com/Ulite-Team/ulb-lsp) | Language server for the DSL |
+| [tree-sitter-ulb](https://github.com/Ulite-Team/tree-sitter-ulb) | Editor grammar: highlighting, folding, indentation |
 
-## Stack
-
-<div align="left">
-
-![Kotlin](https://img.shields.io/badge/Kotlin-8EA3F5?style=flat-square&logo=kotlin&logoColor=14141F)
-![Compose](https://img.shields.io/badge/Jetpack_Compose-8EA3F5?style=flat-square&logo=jetpackcompose&logoColor=14141F)
-![KMP](https://img.shields.io/badge/Kotlin_Multiplatform-8EA3F5?style=flat-square&logo=kotlin&logoColor=14141F)
-![Rust](https://img.shields.io/badge/Rust-5EE6A0?style=flat-square&logo=rust&logoColor=14141F)
-![Zed](https://img.shields.io/badge/Zed-14141F?style=flat-square&logo=zedindustries&logoColor=8EA3F5)
-
-</div>
+Everything is **experimental**. The DSL, the plugin ABI, and the tooling
+are in active development and can change at any time.
 
 <br/>
 
