@@ -15,6 +15,8 @@
 
 We build **ulb** — a declarative build DSL — and its toolchain.
 
+Founded and maintained by <a href="https://github.com/ulite-Amr" style="color:#8EA3F5"><b>Amr Ayman</b></a>.
+
 | Repository | What it does |
 |---|---|
 | [Uliab](https://github.com/Ulite-Team/Uliab) | Core: the DSL evaluator, the WASM plugin host, and the incremental task engine (Rust) |
