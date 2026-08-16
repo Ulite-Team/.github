@@ -15,7 +15,7 @@
 
 We build **ulb** — a declarative build DSL — and its toolchain.
 
-Founded and maintained by <a href="https://github.com/ulite-Amr" style="color:#8EA3F5"><b>Amr Ayman</b></a>.
+Founder & maintainer: <a href="https://github.com/ulite-Amr" style="color:#8EA3F5"><b>Amr Ayman</b></a>.
 
 | Repository | What it does |
 |---|---|
